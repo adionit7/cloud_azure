@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="add-product">
+            <h1>Add New Product</h1>
+            <form id="addProductForm">
+                <label for="productId">Product ID:</label>
+                <input type="text" id="productId" name="productId" required><br><br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="price">Price (in Rs):</label>
+                <input type="number" id="price" name="price" required><br><br>
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" rows="4" required></textarea><br><br>
+                <button type="submit">Add Product</button>
+            </form>
+        </div>
+        <div class="product-list">
+            <h1>List of All Products</h1>
+            <ul id="productList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

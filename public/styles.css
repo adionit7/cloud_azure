@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.add-product, .product-list {
+    width: 45%; /* Adjust width as needed */
+}
+
+.add-product {
+    border-right: 1px solid #ccc; /* Add border to separate the sections */
+    padding-right: 20px; /* Add some padding for spacing */
+}
+
+.product-list {
+    padding-left: 20px; /* Add some padding for spacing */
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+input, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
